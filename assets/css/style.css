@@ -7,6 +7,7 @@
     font-family:"opens Sans", "Helvetica neue", Arial, sans-serif;
     font-size:0.9em;
     text-decoration:none;
+    cursor: pointer;
 }
 body{
     font-family: "opens Sans", "Helvetica", Arial, sans-serif;
@@ -129,6 +130,9 @@ header p{
     display:block;
     color:inherit;
 }
+.contatos a{
+    margin-top:5px;
+}
 form{
     display:flex;
     flex-flow:column;
@@ -204,7 +208,12 @@ footer{
         width:100%;
         text-align:center;
     }
-
+    .contatos:last-child {
+        margin-top: 0;
+      }
+    .contatos a{
+        margin-top:5px;
+    }
 
 
 
